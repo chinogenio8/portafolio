@@ -27,7 +27,7 @@ body{
 }
 
 .nombre{
-    font-size: 25px;
+    font-size: 24px;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
@@ -64,12 +64,12 @@ body{
 }
 
 .inicio-conteiner h1{
-    font-size: 54px;
+    font-size: 45px;
     font-weight: 700;
 }
 
 .inicio-conteiner h3{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     color: #17f9ff;
 }

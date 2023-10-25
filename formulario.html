@@ -8,30 +8,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Portafolio Web</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     
 
     <header class="header">
-        <a href="" class="nombre">Cristóbal Maier.</a>
-       
+        
         <nav class="opciones">
-            <a href="index.html" >Inicio</a>
-            <a href="proyectos.html" >Sección de Proyectos</a>
-            <a href="Habilidades.html">Habilidades</a>
-            <a href="#" class="activo">Formulario de Contacto</a>
-        
+            <a href="index.html">Volver</a>
         </nav>
-    </header>
-
-    <section class="">
-        <div class="">
             
-        </div>
+            <form form action="https://formsubmit.co/cristobal.maier.t1vl@gmail.com" method="POST" >
+                
+                <h2>Contacto</h2>
 
+                <div class="entrada">
+                    
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre">
+
+                    <label for="phone">Telefono</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+
+                    <input class="btn" type="submit" value="Enviar">
+                
+                </div>
+            
+                <input type="hidden" name="_next" value=" http://127.0.0.1:5500/">
+                <input type="hidden" name="_capchat" value="false">
+            </form>
+    
+        </header>
+
+    
         
-    </section>
 
     <script src="script.js"></script>
 </body>
