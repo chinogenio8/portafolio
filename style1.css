@@ -52,8 +52,8 @@ input::placeholder, textarea::placeholder{
     color: #001449;
     border: 0;
     border-radius: 25px;
-    background-color: #51D94C;
-    box-shadow:  0 0 20px rgba(25, 254, 0, 0.4  );
+    background-color: #1fdfe5;
+    box-shadow:  0 0 20px rgba(0, 254, 199, 0.4);
     cursor: pointer;
 }   
 
@@ -77,7 +77,7 @@ input::placeholder, textarea::placeholder{
 
 .opciones a{
     position: relative;
-    right: 250px;
+    right: 650px;
     padding: 10px;
     font-size: 18px;
     color: #EDFFF0;
@@ -89,5 +89,5 @@ input::placeholder, textarea::placeholder{
 
 .opciones a:hover,
 .opciones a.activo{
-    color: #51D94C;  
+    color: #17f9ff;  
 }   
