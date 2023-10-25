@@ -8,11 +8,11 @@ body{
 }
 
 form{
-    padding: 58px 55px;
+    padding: 100px 100px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 2);
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
-    width: 340px;
+    width: 350px;
 }
 
 .entrada{
