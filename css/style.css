@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     color: #ededed;
     background-color: #001449;
-    
+
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -26,14 +26,14 @@ body{
     z-index: 100;
 }
 
-.nombre{
+.nombre {
     font-size: 24px;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
 }
 
-.opciones a{
+.opciones a {
     font-size: 18px;
     color: #ededed;
     text-decoration: none;
@@ -43,11 +43,11 @@ body{
 }
 
 .opciones a:hover,
-.opciones a.activo{
-    color: #17f9ff;  
-}   
+.opciones a.activo {
+    color: #17f9ff;
+}
 
-.inicio{
+.inicio {
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -56,27 +56,27 @@ body{
     padding: 0 10%;
 }
 
-.inicio-conteiner{
-    max-width:  600px;
+.inicio-conteiner {
+    max-width: 600px;
 }
 
-.inicio-conteiner h1{
+.inicio-conteiner h1 {
     font-size: 45px;
     font-weight: 700;
 }
 
-.inicio-conteiner h3{
+.inicio-conteiner h3 {
     font-size: 30px;
     font-weight: 700;
     color: #17f9ff;
 }
 
-.inicio-conteiner p{
+.inicio-conteiner p {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.inicio-redes{
+.inicio-redes {
     position: absolute;
     bottom: 40px;
     width: 170px;
@@ -84,7 +84,7 @@ body{
     justify-content: space-between;
 }
 
-.inicio-redes a{
+.inicio-redes a {
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -102,7 +102,7 @@ body{
     transition: .5s;
 }
 
-.inicio-redes a:hover{
+.inicio-redes a:hover {
     color: #001449;
 }
 
@@ -118,14 +118,23 @@ body{
     transition: .5s;
 }
 
-.inicio-redes a:hover::before{
+.inicio-redes a:hover::before {
     width: 100%;
 }
 
-.caja{
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.caja {
     width: 300px;
     height: 200px;
-    border: 4px solid black;
+    border: 1px solid black;
     background: transparent;
-    margin: 15px;   
+    margin: 15px;
+    line-height: 150px;
+    float: left;
 }
