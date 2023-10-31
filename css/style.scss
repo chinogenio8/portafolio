@@ -57,25 +57,27 @@ header {
     color: #d63031;
 }
 .inicio {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .inicio-conteiner {
     max-width: 600px;
-    margin-left: 5px;
+    margin-left: 10px;
+    h3 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #d63031;
+    }
+    h1 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+    p {
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
-.inicio-conteiner h1 {
-    font-size: 45px;
-    font-weight: 700;
-}
-.inicio-conteiner h3 {
-    font-size: 30px;
-    font-weight: 700;
-    color: #d63031;
-}
-.inicio-conteiner p {
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
+
 .inicio-redes {
     position: absolute;
     bottom: 40px;
