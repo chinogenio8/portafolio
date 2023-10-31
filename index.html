@@ -13,6 +13,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <title>Portafolio Web</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -91,6 +92,7 @@
       <div class="proyectos">
           <br>
           <h3>Proyectos</h3>
+          <br>
           <div class="contenedor-grid">
             <div class="caja">
                 <h4></h4>
@@ -111,6 +113,34 @@
               <h4>p6</h4>
             </div>
           </div>
+        </div>
+        <br>
+        <br>
+        <h3>Contactame</h3>
+        
+        <div class="form-content">
+
+          <form action="https://formsubmit.co/cristobalmaier1@gmail.com" method="POST">
+            <br>  
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Correo</label>
+            <input type="email" name="email" id="email">
+
+            <label for="phone">Telefono</label>
+            <input type="tel" name="phone" id="phone">
+
+            <label for="coments">Comentarios</label>
+            <textarea name="coments" id="coments" cols="30" rows="10"></textarea>
+          
+            <input class="btn" type="submit" value="Enviar">
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+
+            <input type="hidden" name="_captcha" value="false">
+          
+          </form>
         </div>
 
       </div>
