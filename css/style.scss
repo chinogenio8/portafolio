@@ -50,17 +50,17 @@ body {
     }
 }
 
-.inicio {
-    margin-left: 10px;
-    
-}
+
 .inicio-conteiner {
     max-width: 600px;
     margin-left: 10px;
-    
+    .inicio {
+        margin-left: 10px;
+        
+    }
     .habilidad{
         display: flex;
-        gap: 50px;
+        gap: 70px;
         margin-top: 50px;
         margin-bottom: 50px;
         div{
@@ -89,7 +89,7 @@ body {
 
 .contenedor-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     justify-content: left;
     width: 80%;
     margin: 0 auto;

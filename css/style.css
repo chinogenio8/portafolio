@@ -47,17 +47,16 @@ body header {
   color: rgb(233, 233, 31);
 }
 
-.inicio {
-  margin-left: 10px;
-}
-
 .inicio-conteiner {
   max-width: 600px;
   margin-left: 10px;
 }
+.inicio-conteiner .inicio {
+  margin-left: 10px;
+}
 .inicio-conteiner .habilidad {
   display: flex;
-  gap: 50px;
+  gap: 70px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -85,7 +84,7 @@ body header {
 
 .contenedor-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 2fr;
   justify-content: left;
   width: 80%;
   margin: 0 auto;
