@@ -40,11 +40,11 @@ body header {
   transition: 0.3s;
 }
 .opciones a:hover {
-  color: rgb(197, 197, 23);
-  border-bottom: 1px solid rgb(197, 197, 23);
+  color: rgb(227, 227, 28);
+  border-bottom: 1px solid rgb(231, 231, 29);
 }
 .opciones a.activo {
-  color: rgb(197, 197, 23);
+  color: rgb(233, 233, 31);
 }
 
 .inicio {
@@ -57,11 +57,17 @@ body header {
 }
 .inicio-conteiner .habilidad {
   display: flex;
-  gap: 20px;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .inicio-conteiner .habilidad div {
   display: flex;
   flex-direction: column;
+}
+.inicio-conteiner .habilidad div img {
+  width: 100px;
+  height: 100px;
 }
 .inicio-conteiner h3 {
   font-size: 40px;
