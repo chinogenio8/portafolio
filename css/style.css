@@ -25,12 +25,11 @@ body header {
   z-index: 100;
   background-color: #2c2c2c;
 }
-
-.opciones {
+body header .opciones {
   position: absolute;
   right: 60px;
 }
-.opciones a {
+body header .opciones a {
   right: 300px;
   font-size: 18px;
   color: #e3e0e0;
@@ -39,47 +38,95 @@ body header {
   margin-left: 35px;
   transition: 0.3s;
 }
-.opciones a:hover {
+body header .opciones a:hover {
   color: rgb(227, 227, 28);
   border-bottom: 1px solid rgb(231, 231, 29);
 }
-.opciones a.activo {
+body header .opciones a.activo {
   color: rgb(233, 233, 31);
 }
-
-.inicio-conteiner {
+body .inicio-conteiner {
   max-width: 600px;
   margin-left: 10px;
 }
-.inicio-conteiner .inicio {
+body .inicio-conteiner .inicio {
   margin-left: 10px;
 }
-.inicio-conteiner .habilidad {
+body .inicio-conteiner .habilidad {
   display: flex;
   gap: 70px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.inicio-conteiner .habilidad div {
+body .inicio-conteiner .habilidad div {
   display: flex;
   flex-direction: column;
 }
-.inicio-conteiner .habilidad div img {
+body .inicio-conteiner .habilidad div img {
   width: 100px;
   height: 100px;
 }
-.inicio-conteiner h3 {
+body .inicio-conteiner .habilidad div img.hover {
+  transform: scale(1.15);
+}
+body .inicio-conteiner h3 {
   font-size: 40px;
   font-weight: 700;
   color: rgb(213, 213, 47);
 }
-.inicio-conteiner h1 {
+body .inicio-conteiner h1 {
   font-size: 45px;
   font-weight: 700;
 }
-.inicio-conteiner p {
+body .inicio-conteiner p {
   font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
+}
+body .inicio-conteiner p.hover {
+  color: rgb(213, 213, 47);
+}
+body .form-content {
+  margin-left: 10px;
+  margin: 5px;
+  color: #090909;
+  padding: 20px;
+}
+body .form-content h2 {
+  color: #ededed;
+}
+body .form-content form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+body .form-content form label {
+  font-size: 17px;
+  color: white;
+  margin-bottom: 10px;
+}
+body .form-content form input,
+body .form-content form textarea {
+  padding: 10px 14px;
+  width: 250px;
+  background-color: #403f3f;
+  border: 0;
+  font-size: 15px;
+  color: #acaaaa;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+body .form-content form :focus {
+  outline: 1px solid rgb(213, 213, 47);
+}
+body .form-content form .btn {
+  background-color: rgb(229, 229, 33);
+  width: 150px;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+}
+body .form-content form .btn.hover {
+  background-color: rgb(8, 8, 8);
 }
 
 .contenedor-grid {
@@ -107,48 +154,4 @@ body header {
 }
 .contenedor-grid .caja h5 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.form-content {
-  margin-left: 10px;
-  margin: 5px;
-  color: #090909;
-  padding: 20px;
-}
-.form-content h2 {
-  color: #ededed;
-}
-.form-content form {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-.form-content form label {
-  font-size: 17px;
-  color: white;
-  margin-bottom: 10px;
-}
-.form-content form input,
-.form-content form textarea {
-  padding: 10px 14px;
-  width: 250px;
-  background-color: #403f3f;
-  border: 0;
-  font-size: 15px;
-  color: #acaaaa;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-.form-content form :focus {
-  outline: 1px solid rgb(213, 213, 47);
-}
-.form-content form .btn {
-  background-color: rgb(229, 229, 33);
-  width: 150px;
-  align-items: center;
-  cursor: pointer;
-  color: black;
-}
-.form-content form .btn ::hover {
-  background-color: rgb(8, 8, 8);
 }/*# sourceMappingURL=style.css.map */
