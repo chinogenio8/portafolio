@@ -45,11 +45,53 @@ body header .opciones a:hover {
 body header .opciones a.activo {
   color: rgb(233, 233, 31);
 }
+body .inicio-redes {
+  position: relative;
+  bottom: 50px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+body .inicio-redes a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid rgb(213, 213, 47);
+  border-radius: 50%;
+  font-size: 20px;
+  color: rgb(213, 213, 47);
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+body .inicio-redes a:hover {
+  color: #1e1e1e;
+}
+body .inicio-redes a:before {
+  content: "  ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgb(213, 213, 47);
+  z-index: -1;
+  transition: 0.5s;
+}
+body .inicio-redes a:hover::before {
+  width: 100%;
+}
 body .inicio-conteiner {
   max-width: 600px;
   margin-left: 10px;
 }
-body .inicio-conteiner .inicio {
+body .inicio-conteiner .descripcion {
   margin-left: 10px;
 }
 body .inicio-conteiner .habilidad {
@@ -65,9 +107,10 @@ body .inicio-conteiner .habilidad div {
 body .inicio-conteiner .habilidad div img {
   width: 100px;
   height: 100px;
+  transition: transform 0.4s;
 }
-body .inicio-conteiner .habilidad div img.hover {
-  transform: scale(1.15);
+body .inicio-conteiner .habilidad div img:hover {
+  transform: scale(1.5);
 }
 body .inicio-conteiner h3 {
   font-size: 40px;
@@ -81,9 +124,6 @@ body .inicio-conteiner h1 {
 body .inicio-conteiner p {
   font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
-}
-body .inicio-conteiner p.hover {
-  color: rgb(213, 213, 47);
 }
 body .form-content {
   margin-left: 10px;
@@ -115,18 +155,19 @@ body .form-content form textarea {
   margin-bottom: 20px;
   border-radius: 5px;
 }
-body .form-content form :focus {
+body .form-content form:focus {
   outline: 1px solid rgb(213, 213, 47);
 }
 body .form-content form .btn {
-  background-color: rgb(229, 229, 33);
+  background-color: rgb(213, 213, 47);
   width: 150px;
   align-items: center;
   cursor: pointer;
   color: black;
 }
-body .form-content form .btn.hover {
-  background-color: rgb(8, 8, 8);
+body .form-content form .btn:hover {
+  background-color: rgb(189, 189, 39);
+  transition: transform 0.2s;
 }
 
 .contenedor-grid {
