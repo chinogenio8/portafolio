@@ -155,7 +155,8 @@ body .form-content form textarea {
   margin-bottom: 20px;
   border-radius: 5px;
 }
-body .form-content form:focus {
+body .form-content form input:focus,
+body .form-content form textarea:focus {
   outline: 1px solid rgb(213, 213, 47);
 }
 body .form-content form .btn {
@@ -168,31 +169,4 @@ body .form-content form .btn {
 body .form-content form .btn:hover {
   background-color: rgb(189, 189, 39);
   transition: transform 0.2s;
-}
-
-.contenedor-grid {
-  display: grid;
-  grid-template-columns: 2fr;
-  justify-content: left;
-  width: 80%;
-  margin: 0 auto;
-}
-.contenedor-grid .caja {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  height: 150px;
-  border: 1px solid black;
-  border-radius: 20px;
-  background: rgb(48, 48, 48);
-  margin: 15px;
-}
-.contenedor-grid .caja h4 {
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-}
-.contenedor-grid .caja h5 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }/*# sourceMappingURL=style.css.map */
