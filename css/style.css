@@ -125,6 +125,45 @@ body .inicio-conteiner p {
   font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
 }
+body .contenedor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 40px;
+  border: 1.5px solid black;
+  border-radius: 2px;
+  height: 600px;
+  width: 492px;
+}
+body .contenedor-grid .proyecto-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+body .contenedor-grid .proyecto-item button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 80px;
+  background-color: #7a2eb4;
+  border: black;
+  border-radius: 5px;
+  font-size: 15px;
+}
+body .contenedor-grid .proyecto-item button:hover {
+  transition: 1.3s;
+  transform: scale(1.2);
+}
+body .contenedor-grid .proyecto-item button .icon {
+  display: inline-block;
+  margin-right: 5px;
+}
+body .contenedor-grid img {
+  height: 550px;
+  width: 490px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 body .form-content {
   margin-left: 10px;
   margin: 5px;

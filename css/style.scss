@@ -155,6 +155,53 @@ body {
     }
   }
 
+
+  .contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 40px;
+    border: 1.5px solid black;
+    border-radius: 2px;
+    height: 600px;
+    width: 492px;
+
+    .proyecto-item{
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      text-align: center;
+      
+      button{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 80px;
+        background-color: #7a2eb4;  
+        border: black;
+        border-radius: 5px;
+        font-size: 15px;
+        
+        &:hover{
+          transition: 1.3s;
+          transform: scale(1.2);
+        }
+
+        .icon{
+          display: inline-block;
+          margin-right: 5px;
+        }
+      }
+    }
+    
+    img{
+      height: 550px;
+      width: 490px;
+      
+      object-fit: cover;
+     
+    }
+    
+  }
   // Contenido del form ulario
   .form-content {
     margin-left: 10px;
