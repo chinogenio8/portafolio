@@ -164,6 +164,11 @@ body .contenedor-grid img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+body h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(213, 213, 47);
+}
 body .form-content {
   margin-left: 10px;
   margin: 5px;
