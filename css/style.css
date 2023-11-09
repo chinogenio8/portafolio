@@ -71,7 +71,7 @@ body .inicio-redes a {
   transition: 0.5s;
 }
 body .inicio-redes a:hover {
-  color: #1e1e1e;
+  color: rgba(30, 30, 30, 0.4431372549);
 }
 body .inicio-redes a:before {
   content: "  ";
@@ -127,42 +127,64 @@ body .inicio-conteiner p {
 }
 body .contenedor-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 10px;
   margin-top: 40px;
-  border: 1.5px solid black;
-  border-radius: 2px;
-  height: 600px;
-  width: 492px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
 }
 body .contenedor-grid .proyecto-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+body .contenedor-grid .proyecto-item:hover {
+  background-color: rgba(56, 55, 55, 0.308);
 }
 body .contenedor-grid .proyecto-item button {
+  cursor: pointer;
   margin-top: 20px;
   margin-bottom: 10px;
-  width: 80px;
-  background-color: #7a2eb4;
+  width: 10vw;
+  background-color: #cccf10;
   border: black;
   border-radius: 5px;
   font-size: 15px;
+  height: 35px;
+  transition: all 0.2s ease-in-out;
 }
 body .contenedor-grid .proyecto-item button:hover {
-  transition: 1.3s;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 body .contenedor-grid .proyecto-item button .icon {
   display: inline-block;
   margin-right: 5px;
 }
 body .contenedor-grid img {
-  height: 550px;
-  width: 490px;
+  height: 275px;
+  width: 90%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+body .contenedor-grid .proyecto-info {
+  color: #fff;
+}
+body .contenedor-grid .proyecto-info {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
 }
 body h3 {
   font-size: 40px;
