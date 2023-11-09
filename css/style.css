@@ -16,6 +16,7 @@ body header {
   position: fixed;
   top: 0;
   left: 0;
+  padding-top: 30px;
   width: 100%;
   padding: 20px 10%;
   background: transparent;
@@ -24,10 +25,12 @@ body header {
   align-items: center;
   z-index: 100;
   background-color: #2c2c2c;
+  height: 55px;
 }
 body header .opciones {
   position: absolute;
   right: 60px;
+  padding-top: 1px;
 }
 body header .opciones a {
   right: 300px;
@@ -156,7 +159,7 @@ body .contenedor-grid .proyecto-item button {
   margin-top: 20px;
   margin-bottom: 10px;
   width: 10vw;
-  background-color: #cccf10;
+  background-color: rgb(213, 213, 47);
   border: black;
   border-radius: 5px;
   font-size: 15px;
@@ -233,6 +236,6 @@ body .form-content form .btn {
   color: black;
 }
 body .form-content form .btn:hover {
-  background-color: rgb(189, 189, 39);
+  background-color: rgba(213, 213, 47, 0.945);
   transition: transform 0.2s;
 }/*# sourceMappingURL=style.css.map */
