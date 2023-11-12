@@ -159,6 +159,7 @@ body {
   .contenedor-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
     gap: 10px;
     margin-top: 40px;
     border: 1.5px solid black;
@@ -196,11 +197,8 @@ body {
     img{
       height: 550px;
       width: 490px;
-      
       object-fit: cover;
-     
     }
-    
   }
 
   h3 {
@@ -208,7 +206,7 @@ body {
     font-weight: 700;
     color: rgb(213, 213, 47);
   }
-  
+
   // Contenido del form ulario
   .form-content {
     margin-left: 10px;
