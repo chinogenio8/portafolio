@@ -1,11 +1,12 @@
-/*window.addEventListener('load', function() {
-    alert('Bienvenido a mi pagina');
-  });*/
+window.addEventListener('load', function() {
+    alert('¡Bienvenido a mi Portfolio!');
+  });
 
 
 
-  ///sirve para poder validad los datos del formulario y no mandar 1 dato sino todos los datos
-  document.addEventListener('DOMContentLoaded', function() {
+  ///sirve para poder validad los datos del formulario y no mandar 1 dato sino todos los datos necesarios
+  
+document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('form');
   
     form.addEventListener('submit', function(event) {
@@ -20,3 +21,23 @@
       }
     });
   });
+
+
+  
+  
+  //Sirve para el desplazamiento suave en la pagina 
+  const links = document.querySelectorAll('nav.opciones a');
+
+  links.forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const target = document.querySelector(e.target.getAttribute('href'));
+      target.scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+
+
+
+  
