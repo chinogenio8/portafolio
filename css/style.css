@@ -107,6 +107,14 @@ body .inicio-conteiner {
 body .inicio-conteiner .descripcion {
   margin-left: 10px;
 }
+body .inicio-conteiner .descripcion .contenedor-imagen {
+  display: flex;
+  justify-content: left;
+}
+body .inicio-conteiner .descripcion .contenedor-imagen img {
+  width: 500px;
+  height: 800px;
+}
 body .inicio-conteiner .habilidad {
   display: flex;
   gap: 70px;
