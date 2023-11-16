@@ -23,7 +23,11 @@
   }
 }
 
-
+html{
+  scroll-behavior: smooth;
+  transition: scroll-behavior 0.5s ease-in-out;
+  
+}
 * {
   margin: 0;
   padding: 0;
@@ -71,16 +75,14 @@ body {
         text-decoration: none;
         font-weight: 500;
         margin-left: 35px;
-        transition: 0.3s;
+        transition: 0.5s;
+        font-size: 1.2rem;
 
         &:hover {
           color: rgb(227, 227, 28);
-          border-bottom: 1px solid rgb(231, 231, 29);
+          
         }
 
-        &.activo {
-          color: rgb(233, 233, 31);
-        }
       }
     }
   }
@@ -93,7 +95,7 @@ body {
     width: 170px;
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 70px;   
     
 
     a {
@@ -143,9 +145,14 @@ body {
     .descripcion {
       margin-left: 10px;
       
+      p{
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
       .contenedor-imagen{
         display: flex;
         justify-content: left;
+        
 
         img{
           width: 500px;
